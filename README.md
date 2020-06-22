@@ -52,7 +52,9 @@ Basically any related work that may have utility later or supports the article g
 
 ## data/ directory
 
-If the data used in very large or time-consuming to compute, it is useful to summarize and compress it as `.rds` files for reference in the article sections. Be frugal with this as to not bloat the repo.
+The `./data/` directory contains data in the case that the data used is very large or time-consuming to compute. Usually we summarize and compress large datasets as `.rds` files for reference in the article sections. 
+
+Please *be frugal with this as to not bloat* the repo.
 
 # Publishing process and project management through git
 

@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "An Article Project Template"
+author: "AG Schissler"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,10 +9,23 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+abstract: |
+  The git repo serves as a starting point for an article-writing project.
 ---
 
-# Prerequisites
+```{r LoadLib, echo = FALSE, eval = TRUE, message=FALSE, warning=FALSE, results = "hide"}
+library(tidyverse)
+library(knitr)
+library(rmarkdown)
+library(bookdown)
+## bookdown::serve_book()
+set.seed(06222020)
+```
+```{bash copyBib, echo = FALSE, eval = FALSE, message=FALSE, warning=FALSE, results = "hide"}
+cp ~/bib/article.bib ./.
+```
+
+# Introduction
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 

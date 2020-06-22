@@ -1,14 +1,14 @@
 --- 
 title: "An Article Project Template"
-author: "AG Schissler"
+author: [A.G. Schissler, Author2]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [article.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: grizant/article_template
 abstract: |
   The git repo serves as a starting point for an article-writing project.
 ---

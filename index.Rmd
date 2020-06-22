@@ -1,6 +1,6 @@
 --- 
 title: "An Article Project Template"
-author: [A.G. Schissler, Author2]
+author: [A.G. Schissler, A.D. Knudson]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook

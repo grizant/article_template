@@ -1,0 +1,17 @@
+# Supplementary Materials
+
+We provide an open-source implementation of our methology as the `article` R package, hosted on github. 
+
+# Acknowledgement(s)
+
+The authors gratefully acknowledge the helpful discussions with Professor Walter W. Piegorsch and Professor Edward J. Bedrick during this project's conception.
+
+# Disclosure statement
+
+The authors report no conflict of interest.
+
+# Funding
+
+# Nomenclature/Notation
+
+# Notes

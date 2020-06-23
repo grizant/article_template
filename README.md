@@ -4,21 +4,9 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
-```{r, echo = FALSE, eval=FALSE}
-## http://r-pkgs.had.co.nz/release.html
-## I created this file starting with
-devtools::use_readme_rmd()
-## knitr::knit('README.Rmd')
-```
+
+
 
 # Schissler Group article production workflow
 
@@ -85,7 +73,8 @@ Please *be frugal with this as to not bloat* the repo.
 
 0. Begin from this repo by running 
 
-```{bash, echo=TRUE, eval=FALSE}
+
+```bash
 git clone https://github.com/SchisslerGroup/article_template.git new_article
 cd new_article
 git remote rm origin

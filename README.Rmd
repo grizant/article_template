@@ -58,6 +58,15 @@ Please *be frugal with this as to not bloat* the repo.
 
 # Publishing process and project management through git
 
+0. Begin from this repo by running 
+
+```{bash, echo=TRUE, eval=FALSE}
+git clone https://github.com/SchisslerGroup/article_template.git new_article
+cd new_article
+git remote rm origin
+git remote add origin https://github.com/SchisslerGroup/new_article.git
+```
+
 1. Do as much content creation and editing as possible in the base HTML `bookdown` article_template.
 2. Create a new `git` branch to prepare an article for submission to a particular publisher.
 3. Reformat using possibly [`rticles`](https://github.com/rstudio/rticles) or [`bookdownplus`](https://github.com/pzhaonet/bookdownplus) to meet the submission guidelines.
